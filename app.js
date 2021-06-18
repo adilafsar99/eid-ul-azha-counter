@@ -1,6 +1,7 @@
 //Getting difference between today and Eid day in milliseconds
 
 var eidDay = new Date("20 July 2021").getTime();
+setInterval(function countDown() {
 var now = new Date().getTime();
 var timeleft = eidDay - now;
 
@@ -14,4 +15,4 @@ var minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
 document.getElementById("days").innerText = days + " ";
 document.getElementById("hours").innerText = hours + " ";
 document.getElementById("minutes").innerText = minutes + " ";
-
+}, 1000)
