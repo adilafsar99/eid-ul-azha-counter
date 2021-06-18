@@ -2,7 +2,7 @@
 
 var eidDay = new Date("20 July 2021").getTime();
 var now = new Date().getTime();
-var diffInMillis = eidDay - now;
+var timeleft = eidDay - now;
 
     
 var days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
