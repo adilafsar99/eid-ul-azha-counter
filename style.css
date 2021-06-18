@@ -1,0 +1,24 @@
+body {
+    font-family: serif;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(99, 66, 188, 1) 0%, rgba(13, 10, 60, 1) 0%, rgba(27, 29, 35, 1) 100%);
+}
+
+.heading {
+    text-align: center;
+    color: #ffb22b;
+    text-shadow: 2px 2px 6px #bd4620;
+    font-size: 36px;
+}
+
+.message {
+    text-align: center;
+    font-size: 30px;
+    color: #bfeaff;
+}
+
+b {
+    color: #8098ff;
+    text-shadow: 2px 1px 2px #ffffff;
+    font-size: 32px;
+}
